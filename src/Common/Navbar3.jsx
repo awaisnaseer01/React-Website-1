@@ -6,13 +6,17 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 
-function Header() {
+function navbar1() {
   return (
+    <div  >
     <Navbar bg="light" expand="lg">
       <Container fluid>
-        <Navbar.Brand href="#">BeStore</Navbar.Brand>
+        
+        
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
+        {/* <div className='col-1'></div> */}
+          <div className='col-9'>
           <Nav
             className="me-auto my-2 my-lg-0"
             style={{ maxHeight: '100px' }}
@@ -74,11 +78,32 @@ function Header() {
 
             
           </Nav>
-          
+
+          </div>
+<div className='col-3'>
+          <Nav
+            className="me-auto my-2 my-lg-0"
+            style={{ maxHeight: '100px' }}
+            navbarScroll
+          >
+            {/* <---ABout---> */}
+            <Nav.Link href="#action1">About</Nav.Link>
+
+             {/* <---COntact---> */}
+             <Nav.Link href="#action1">Contact</Nav.Link>
+
+              {/* <---Term Of Use---> */}
+            <Nav.Link href="#action1">Term Of Use</Nav.Link>
+            
+            </Nav>
+
+            </div>     
+            
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    </div>
   );
 }
 
-export default Header;
+export default navbar1;

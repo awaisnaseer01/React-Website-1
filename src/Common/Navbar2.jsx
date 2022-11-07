@@ -9,7 +9,7 @@ import {BsFillPersonFill, BsHeart, BsBagCheck} from 'react-icons/bs';
 function Navbar2() {
   return (
 <>
-    <div className='row'>
+    <div className=''>
 
     <Navbar  bg="light" expand="lg">
       <Container fluid>
@@ -35,7 +35,7 @@ function Navbar2() {
           {/* <-------Search Bar-------> */}
           
 
-          <div className='col-9'>
+          <div className='col-8'>
           <Form className="d-flex">
             <input
               type="search"
@@ -47,7 +47,7 @@ function Navbar2() {
           </Form>
           </div>
 
-<div className='col-1'>
+<div className='col-2'>
           {/* <--------logos------> */}
 
 
