@@ -15,7 +15,7 @@ import { BsFillPhoneFill} from "react-icons/bs";
               </h6>
               <p>
                 <a href='#!' className='text-light'>
-                  Contact us
+                  Contact us!
                 </a>
               </p>
               <p>
